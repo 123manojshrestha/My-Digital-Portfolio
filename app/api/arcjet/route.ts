@@ -63,6 +63,7 @@ export async function GET(req: Request) {
     return NextResponse.json(
       { error: "Forbidden", reason: decision.reason },
       { status: 403 },
+      
     );
   }
 
